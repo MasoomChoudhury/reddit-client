@@ -1,4 +1,4 @@
-# RedditMasoom - My First Big React Project!
+# RedditMasoom
 
 Hello! I'm Masoom, a passionate developer-in-training from India. This is a portfolio project for my Codecademy Full Stack Engineer Professional Certification. It's a custom Reddit client that I built to practice my front-end skills and learn how to work with APIs.
 
