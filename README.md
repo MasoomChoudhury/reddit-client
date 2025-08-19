@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-# Reddit Client
-
-This is a customized Reddit client application that displays posts from a curated list of subreddits.
-
-## Features
-
--   View posts from a predefined list of subreddits.
--   See comments on each post.
--   Clean and simple user interface.
-
-## Available Scripts
-=======
 # RedditMasoom - My First Big React Project!
 
 Hello! I'm Masoom, a passionate developer-in-training from India. This is a portfolio project for my Codecademy Full Stack Engineer Professional Certification. It's a custom Reddit client that I built to practice my front-end skills and learn how to work with APIs.
@@ -38,24 +25,11 @@ It was a fantastic learning experience! I learned how to:
 *   **Vercel**: For deploying the application.
 
 ## How to Run This Project
->>>>>>> 044708c (feat: Initial commit of customized Reddit client)
 
 In the project directory, you can run:
 
 ### `npm start`
 
-<<<<<<< HEAD
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-=======
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run build`
@@ -67,4 +41,3 @@ This will build the app for production into the `build` folder.
 I have many ideas for the future! I would love to add user authentication, the ability to upvote and comment, and a more detailed post view.
 
 Thank you for checking out my project!
->>>>>>> 044708c (feat: Initial commit of customized Reddit client)
