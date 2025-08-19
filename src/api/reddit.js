@@ -1,5 +1,9 @@
 export const getSubredditPosts = async (subreddit) => {
-  const response = await fetch(`/api${subreddit}.json`);
+  const response = await fetch(`/api${subreddit}.json`, {
+    headers: {
+      'User-Agent': 'web:RedditMasoom:v1.0 (by /u/MasoomChoudhury)',
+    },
+  });
   const json = await response.json();
 
   return json.data.children.map((post) => post.data);
@@ -26,7 +30,11 @@ const subreddits = [
 export const getSubreddits = async () => {
   return Promise.all(
     subreddits.map(async (subreddit) => {
-      const response = await fetch(`/api/${subreddit}/about.json`);
+      const response = await fetch(`/api/${subreddit}/about.json`, {
+        headers: {
+          'User-Agent': 'web:RedditMasoom:v1.0 (by /u/MasoomChoudhury)',
+        },
+      });
       const json = await response.json();
       return json.data;
     })
@@ -34,7 +42,11 @@ export const getSubreddits = async () => {
 };
 
 export const getPostComments = async (permalink) => {
-  const response = await fetch(`/api${permalink}.json`);
+  const response = await fetch(`/api${permalink}.json`, {
+    headers: {
+      'User-Agent': 'web:RedditMasoom:v1.0 (by /u/MasoomChoudhury)',
+    },
+  });
   const json = await response.json();
 
   return json[1].data.children.map((subreddit) => subreddit.data);
